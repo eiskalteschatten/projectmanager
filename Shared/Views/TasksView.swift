@@ -205,7 +205,7 @@ fileprivate struct TasksEditView: View {
                 .navigationBarItems(trailing: Button(action: {
                     self.showEditTask = false
                 }) {
-                    TasksEditCloseButtonView(showEditTask: $showEditTask)
+                    ScreenCloseButtonView(showScreen: $showEditTask)
                 })
         }
         #endif
