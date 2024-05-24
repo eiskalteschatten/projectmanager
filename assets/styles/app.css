@@ -1,11 +1,11 @@
 :root {
-    /* --background-color: #{$lightBg};
-    --background-secondary-color: #{$lightSecondaryBg};
-    --opposite-background-color: #{$darkBg};
-    --color: #{$lightColor};
-    --opposite-color: #{$darkColor};
-    --primary-color: #{$primaryColor};
-    --border-color: #{$lightBorderColor};
+    --background-color: #ffffff;
+    /* --background-secondary-color: #{$lightSecondaryBg}; */
+    --opposite-background-color: #1e1f20;
+    --color: #28292a;
+    --opposite-color: #d2d3d4;
+    --primary-color: #4285f4;
+    /* --border-color: #{$lightBorderColor};
     --border-lighter-color: #{$lightBorderLighterColor};
     --border-radius: #{$borderRadius};
     --hover-background-color: #{$lightHoverBgColor};
@@ -22,6 +22,21 @@
     --palette-purple: #7928ca;
 }
 
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-color: #1e1f20;
+        /* --background-secondary-color: #{$darkSecondaryBg}; */
+        --opposite-background-color: #ffffff;
+        --color: #d2d3d4;
+        --opposite-color: #28292a;
+        /* --border-color: #{$darkBorderColor};
+        --border-lighter-color: #{$darkBorderLighterColor};
+        --hover-background-color: #{$darkHoverBgColor};
+        --active-background-color: #{$darkActiveBgColor}; */
+    }
+}
+
 body {
-    background-color: skyblue;
+    background-color: var(--background-color);
+    color: var(--color);
 }
