@@ -1,3 +1,27 @@
+:root {
+    /* --background-color: #{$lightBg};
+    --background-secondary-color: #{$lightSecondaryBg};
+    --opposite-background-color: #{$darkBg};
+    --color: #{$lightColor};
+    --opposite-color: #{$darkColor};
+    --primary-color: #{$primaryColor};
+    --border-color: #{$lightBorderColor};
+    --border-lighter-color: #{$lightBorderLighterColor};
+    --border-radius: #{$borderRadius};
+    --hover-background-color: #{$lightHoverBgColor};
+    --active-background-color: #{$lightActiveBgColor}; */
+    --palette-blue: #4285f4;
+    --palette-dark-blue: #01579b;
+    --palette-yellow: #fbbc05;
+    --palette-red: #ea4335;
+    --palette-green: #24a853;
+    --palette-orange: #ff8f00;
+    --palette-dark-gray: #2F3436;
+    --palette-light-gray: #d3d3d3;
+    --palette-pink: #ff0080;
+    --palette-purple: #7928ca;
+}
+
 body {
     background-color: skyblue;
 }
